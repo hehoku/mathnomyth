@@ -16,6 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
+      <footer className="p-4 text-center border-t-[1px] text-gray-400">©2023 IN2 Studio</footer>
     </html>
   )
 }
